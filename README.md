@@ -12,3 +12,32 @@ Option 3 gives you the choice to save the information to a file named budget.txt
 
 # Criteria in code
 
+
+# 1. Java overview, JVM, OOP concepts:
+The program is ran inside of the Java Virtual Machine or JVM when main() starts.
+The program also utilizes classes and objects, which is a core concept of OOP.
+
+# 2. Variables, types, input/output:
+Here are some of instinces of variables being used
+
+double balance = 0.0;
+int choice;
+String name;
+Scanner in = new Scanner(System.in);
+
+# 3. Control flow: if, switch, loops:
+The program uses multiple control flows. An example of this was when an if statement was used to check weather the user wants to add or take money from their bank.
+
+if (type.equals("income")) {
+    balance += amount;
+} else {
+    balance -= amount;
+}
+
+The program is also ran on a while loop, the condition being choice != 5
+
+while (choice != 5) { }
+for (Transaction t : transactions) { }
+
+# 4. Exceptions (intro), debugging:
+There was multiple instances of debugging.
